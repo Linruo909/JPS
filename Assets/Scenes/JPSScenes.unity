@@ -135,7 +135,7 @@ GameObject:
   - component: {fileID: 30057030}
   - component: {fileID: 30057029}
   - component: {fileID: 30057028}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (14)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -151,8 +151,8 @@ Transform:
   m_GameObject: {fileID: 30057026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -23.2, y: -0.76, z: 23.3}
-  m_LocalScale: {x: 46.1315, y: 2.5, z: 1}
+  m_LocalPosition: {x: -23, y: -0.76, z: 23}
+  m_LocalScale: {x: 45.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -240,7 +240,7 @@ GameObject:
   - component: {fileID: 92470956}
   - component: {fileID: 92470955}
   - component: {fileID: 92470954}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (8)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -256,8 +256,8 @@ Transform:
   m_GameObject: {fileID: 92470952}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.87, y: -0.76, z: 28.8}
-  m_LocalScale: {x: 17.856758, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 4.9, y: -0.76, z: 28.5}
+  m_LocalScale: {x: 17, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -345,7 +345,7 @@ GameObject:
   - component: {fileID: 154949180}
   - component: {fileID: 154949179}
   - component: {fileID: 154949178}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (28)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -361,8 +361,8 @@ Transform:
   m_GameObject: {fileID: 154949176}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -12.82, y: -0.76, z: 23.82}
-  m_LocalScale: {x: 5.242582, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -13.05, y: -0.76, z: 23.5}
+  m_LocalScale: {x: 4.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 157616668}
   - component: {fileID: 157616667}
   - component: {fileID: 157616666}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (13)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -466,8 +466,8 @@ Transform:
   m_GameObject: {fileID: 157616664}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 25.6, y: -0.76, z: 21.26}
-  m_LocalScale: {x: 50, y: 2.5, z: 1}
+  m_LocalPosition: {x: 25.9, y: -0.76, z: 21}
+  m_LocalScale: {x: 49.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -542,111 +542,6 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 157616664}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &205136935
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 205136936}
-  - component: {fileID: 205136939}
-  - component: {fileID: 205136938}
-  - component: {fileID: 205136937}
-  m_Layer: 6
-  m_Name: Cube (33)
-  m_TagString: Obstacle
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1
-  m_StaticEditorFlags: 8
-  m_IsActive: 1
---- !u!4 &205136936
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205136935}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.76, z: 6.2}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 959613806}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &205136937
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205136935}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &205136938
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205136935}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 99e63ad80a1ae8140a9ae1d3dbb225b4, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &205136939
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 205136935}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &269355308
 GameObject:
@@ -765,7 +660,7 @@ GameObject:
   - component: {fileID: 320642900}
   - component: {fileID: 320642899}
   - component: {fileID: 320642898}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (36)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -781,8 +676,8 @@ Transform:
   m_GameObject: {fileID: 320642896}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 21.42, y: -0.76, z: 31.09}
-  m_LocalScale: {x: 10.578648, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 21.9, y: -0.76, z: 31}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -870,7 +765,7 @@ GameObject:
   - component: {fileID: 330262821}
   - component: {fileID: 330262820}
   - component: {fileID: 330262819}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (15)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -886,8 +781,8 @@ Transform:
   m_GameObject: {fileID: 330262817}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.21, y: -0.76, z: -3.75}
-  m_LocalScale: {x: 50, y: 2.5, z: 1}
+  m_LocalPosition: {x: 1.4, y: -0.76, z: -3.5}
+  m_LocalScale: {x: 49.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -975,7 +870,7 @@ GameObject:
   - component: {fileID: 333130105}
   - component: {fileID: 333130104}
   - component: {fileID: 333130103}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (23)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -991,8 +886,8 @@ Transform:
   m_GameObject: {fileID: 333130101}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.31, y: -0.76, z: 40.5}
-  m_LocalScale: {x: 8.595258, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -2.1, y: -0.76, z: 40.5}
+  m_LocalScale: {x: 8.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -1080,7 +975,7 @@ GameObject:
   - component: {fileID: 346997750}
   - component: {fileID: 346997749}
   - component: {fileID: 346997748}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (2)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1096,8 +991,8 @@ Transform:
   m_GameObject: {fileID: 346997746}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.52, y: -0.76, z: 10.54}
-  m_LocalScale: {x: 23.273027, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 0.99, y: -0.76, z: 10.5}
+  m_LocalScale: {x: 23, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -1185,7 +1080,7 @@ GameObject:
   - component: {fileID: 352428461}
   - component: {fileID: 352428460}
   - component: {fileID: 352428459}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1201,8 +1096,8 @@ Transform:
   m_GameObject: {fileID: 352428457}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.68, y: -0.76, z: 16.19}
-  m_LocalScale: {x: 8.726009, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 0.9, y: -0.76, z: 16.5}
+  m_LocalScale: {x: 8.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -1290,7 +1185,7 @@ GameObject:
   - component: {fileID: 353959606}
   - component: {fileID: 353959605}
   - component: {fileID: 353959604}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (3)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1306,8 +1201,8 @@ Transform:
   m_GameObject: {fileID: 353959602}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.7, y: -0.76, z: 21.99}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 8.45, y: -0.76, z: 21.5}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -1395,7 +1290,7 @@ GameObject:
   - component: {fileID: 377576166}
   - component: {fileID: 377576165}
   - component: {fileID: 377576164}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (30)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1411,8 +1306,8 @@ Transform:
   m_GameObject: {fileID: 377576162}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.92, y: -0.76, z: 40.6}
-  m_LocalScale: {x: 16.755821, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -14.6, y: -0.76, z: 40.5}
+  m_LocalScale: {x: 16, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -1638,7 +1533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   agentPrefab: {fileID: 1132703296801642083, guid: 65fe3ff5d013b994891531ce8f006dfe, type: 3}
-  spawnCount: 30
+  spawnCount: 20
   rangeX: 10
   rangeY: 5
   posZ: 1.02
@@ -1748,7 +1643,7 @@ GameObject:
   - component: {fileID: 586688632}
   - component: {fileID: 586688631}
   - component: {fileID: 586688630}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (1)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1764,8 +1659,8 @@ Transform:
   m_GameObject: {fileID: 586688628}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.07, y: -0.76, z: 13.94}
-  m_LocalScale: {x: 9.256423, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -11.1, y: -0.76, z: 13.5}
+  m_LocalScale: {x: 8.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -1853,7 +1748,7 @@ GameObject:
   - component: {fileID: 593442644}
   - component: {fileID: 593442643}
   - component: {fileID: 593442642}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (35)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1869,8 +1764,8 @@ Transform:
   m_GameObject: {fileID: 593442640}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.58, y: -0.76, z: 36.24}
-  m_LocalScale: {x: 8.595258, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 17.9, y: -0.76, z: 36.53}
+  m_LocalScale: {x: 8.9, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -1958,7 +1853,7 @@ GameObject:
   - component: {fileID: 678460029}
   - component: {fileID: 678460028}
   - component: {fileID: 678460027}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (24)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -1974,8 +1869,8 @@ Transform:
   m_GameObject: {fileID: 678460025}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -9.63, y: -0.76, z: 37.98}
-  m_LocalScale: {x: 10.578648, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -9.1, y: -0.76, z: 37.9}
+  m_LocalScale: {x: 10, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2063,7 +1958,7 @@ GameObject:
   - component: {fileID: 781183075}
   - component: {fileID: 781183074}
   - component: {fileID: 781183073}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (12)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2079,8 +1974,8 @@ Transform:
   m_GameObject: {fileID: 781183071}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 8.83, y: -0.76, z: 33.92}
-  m_LocalScale: {x: 3.8052518, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 8.9, y: -0.76, z: 34.5}
+  m_LocalScale: {x: 3, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2168,7 +2063,7 @@ GameObject:
   - component: {fileID: 790527989}
   - component: {fileID: 790527988}
   - component: {fileID: 790527987}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (7)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2184,8 +2079,8 @@ Transform:
   m_GameObject: {fileID: 790527985}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 16.98, y: -0.76, z: 21.26}
-  m_LocalScale: {x: 16.11657, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 16.98, y: -0.76, z: 21}
+  m_LocalScale: {x: 15.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2273,7 +2168,7 @@ GameObject:
   - component: {fileID: 814930432}
   - component: {fileID: 814930431}
   - component: {fileID: 814930430}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (16)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2289,8 +2184,8 @@ Transform:
   m_GameObject: {fileID: 814930428}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.36, y: -0.76, z: 46.1}
-  m_LocalScale: {x: 50, y: 2.5, z: 1}
+  m_LocalPosition: {x: 1.38, y: -0.76, z: 46.5}
+  m_LocalScale: {x: 49.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2378,7 +2273,7 @@ GameObject:
   - component: {fileID: 847803109}
   - component: {fileID: 847803108}
   - component: {fileID: 847803107}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (5)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2394,8 +2289,8 @@ Transform:
   m_GameObject: {fileID: 847803105}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 12.79, y: -0.76, z: 13.21}
-  m_LocalScale: {x: 10.578648, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 12.92, y: -0.76, z: 13}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2501,7 +2396,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1776345027}
-  - {fileID: 205136936}
   - {fileID: 346997747}
   - {fileID: 1310518214}
   - {fileID: 1389817144}
@@ -2555,7 +2449,7 @@ GameObject:
   - component: {fileID: 1007242738}
   - component: {fileID: 1007242737}
   - component: {fileID: 1007242736}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (10)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2571,8 +2465,8 @@ Transform:
   m_GameObject: {fileID: 1007242734}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -4.21, y: -0.76, z: 33.11}
-  m_LocalScale: {x: 9.518138, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -4, y: -0.76, z: 32.5}
+  m_LocalScale: {x: 8.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2660,7 +2554,7 @@ GameObject:
   - component: {fileID: 1041296862}
   - component: {fileID: 1041296861}
   - component: {fileID: 1041296860}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (3)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2676,8 +2570,8 @@ Transform:
   m_GameObject: {fileID: 1041296858}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 9.08, y: -0.76, z: 23.39}
-  m_LocalScale: {x: 10.578648, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 8.95, y: -0.76, z: 23}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2871,7 +2765,7 @@ GameObject:
   - component: {fileID: 1082589387}
   - component: {fileID: 1082589386}
   - component: {fileID: 1082589385}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (34)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2887,8 +2781,8 @@ Transform:
   m_GameObject: {fileID: 1082589383}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 20.75, y: -0.76, z: 25.47}
-  m_LocalScale: {x: 8.595258, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 21, y: -0.76, z: 25.5}
+  m_LocalScale: {x: 8.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -2976,7 +2870,7 @@ GameObject:
   - component: {fileID: 1200680278}
   - component: {fileID: 1200680277}
   - component: {fileID: 1200680276}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (22)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -2992,8 +2886,8 @@ Transform:
   m_GameObject: {fileID: 1200680274}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 17.29, y: -0.76, z: 2.3}
-  m_LocalScale: {x: 11.621702, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 16.9, y: -0.76, z: 2}
+  m_LocalScale: {x: 11.3, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3081,7 +2975,7 @@ GameObject:
   - component: {fileID: 1239708338}
   - component: {fileID: 1239708337}
   - component: {fileID: 1239708336}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (31)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3097,8 +2991,8 @@ Transform:
   m_GameObject: {fileID: 1239708334}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -16.2, y: -0.76, z: 29.84}
-  m_LocalScale: {x: 8.595258, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -16, y: -0.76, z: 29.5}
+  m_LocalScale: {x: 8.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3186,7 +3080,7 @@ GameObject:
   - component: {fileID: 1310518217}
   - component: {fileID: 1310518216}
   - component: {fileID: 1310518215}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (17)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3202,8 +3096,8 @@ Transform:
   m_GameObject: {fileID: 1310518213}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.38, y: -0.76, z: 6.79}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -17.8, y: -0.76, z: 6.5}
+  m_LocalScale: {x: 10.2, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3291,7 +3185,7 @@ GameObject:
   - component: {fileID: 1331228656}
   - component: {fileID: 1331228655}
   - component: {fileID: 1331228654}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (6)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3307,8 +3201,8 @@ Transform:
   m_GameObject: {fileID: 1331228652}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 12.41, y: -0.76, z: 7.54}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 12.4, y: -0.76, z: 7.54}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3396,7 +3290,7 @@ GameObject:
   - component: {fileID: 1389817147}
   - component: {fileID: 1389817146}
   - component: {fileID: 1389817145}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (18)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3412,8 +3306,8 @@ Transform:
   m_GameObject: {fileID: 1389817143}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -14.19, y: -0.76, z: -0.13}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -14.55, y: -0.76, z: -0.5}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3501,7 +3395,7 @@ GameObject:
   - component: {fileID: 1407263041}
   - component: {fileID: 1407263040}
   - component: {fileID: 1407263039}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (3)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3517,8 +3411,8 @@ Transform:
   m_GameObject: {fileID: 1407263037}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.89, y: -0.76, z: 21.66}
-  m_LocalScale: {x: 8.57285, y: 2.5502, z: 0.88681}
+  m_LocalPosition: {x: -8.1, y: -0.76, z: 21.5}
+  m_LocalScale: {x: 8.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3606,7 +3500,7 @@ GameObject:
   - component: {fileID: 1471052397}
   - component: {fileID: 1471052396}
   - component: {fileID: 1471052395}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (21)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3622,8 +3516,8 @@ Transform:
   m_GameObject: {fileID: 1471052393}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.25, y: -0.76, z: 17.78}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -17, y: -0.76, z: 17.5}
+  m_LocalScale: {x: 10.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3711,7 +3605,7 @@ GameObject:
   - component: {fileID: 1494594066}
   - component: {fileID: 1494594065}
   - component: {fileID: 1494594064}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (2)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3727,8 +3621,8 @@ Transform:
   m_GameObject: {fileID: 1494594062}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0.49999994, y: -0.76, z: 17.7}
-  m_LocalScale: {x: 8.728125, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -0.05, y: -0.76, z: 18}
+  m_LocalScale: {x: 7.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3816,7 +3710,7 @@ GameObject:
   - component: {fileID: 1495143621}
   - component: {fileID: 1495143620}
   - component: {fileID: 1495143619}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (25)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3832,8 +3726,8 @@ Transform:
   m_GameObject: {fileID: 1495143617}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 12.96, y: -0.76, z: 37.05}
-  m_LocalScale: {x: 8.389608, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 12.9, y: -0.76, z: 36.93}
+  m_LocalScale: {x: 7.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -3921,7 +3815,7 @@ GameObject:
   - component: {fileID: 1526977735}
   - component: {fileID: 1526977734}
   - component: {fileID: 1526977733}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (19)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -3937,8 +3831,8 @@ Transform:
   m_GameObject: {fileID: 1526977731}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -14.74, y: -0.76, z: 3.37}
-  m_LocalScale: {x: 6.45837, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -15.1, y: -0.76, z: 3.1}
+  m_LocalScale: {x: 7, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -4026,7 +3920,7 @@ GameObject:
   - component: {fileID: 1648659528}
   - component: {fileID: 1648659527}
   - component: {fileID: 1648659526}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (4)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4042,8 +3936,8 @@ Transform:
   m_GameObject: {fileID: 1648659524}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -6.9, y: -0.76, z: 15.89}
-  m_LocalScale: {x: 10.578648, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -7.09, y: -0.76, z: 15.89}
+  m_LocalScale: {x: 10, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -4131,7 +4025,7 @@ GameObject:
   - component: {fileID: 1776345030}
   - component: {fileID: 1776345029}
   - component: {fileID: 1776345028}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4147,8 +4041,8 @@ Transform:
   m_GameObject: {fileID: 1776345026}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.76, z: 6.2}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -0.1, y: -0.76, z: 5.5}
+  m_LocalScale: {x: 10.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -4236,7 +4130,7 @@ GameObject:
   - component: {fileID: 1797423861}
   - component: {fileID: 1797423860}
   - component: {fileID: 1797423859}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (9)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4252,8 +4146,8 @@ Transform:
   m_GameObject: {fileID: 1797423857}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: -0.76, z: 25.64}
-  m_LocalScale: {x: 10.578649, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -0.5, y: -0.76, z: 25.5}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -4354,7 +4248,7 @@ Transform:
   m_GameObject: {fileID: 1804837363}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -12.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4481,7 +4375,7 @@ GameObject:
   - component: {fileID: 1838517527}
   - component: {fileID: 1838517526}
   - component: {fileID: 1838517525}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (27)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4497,8 +4391,8 @@ Transform:
   m_GameObject: {fileID: 1838517523}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -17.09, y: -0.76, z: 33.26}
-  m_LocalScale: {x: 15.078805, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -17.05, y: -0.76, z: 33.5}
+  m_LocalScale: {x: 14.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -4586,7 +4480,7 @@ GameObject:
   - component: {fileID: 1841115206}
   - component: {fileID: 1841115205}
   - component: {fileID: 1841115204}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (32)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4602,8 +4496,8 @@ Transform:
   m_GameObject: {fileID: 1841115202}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.2, y: -0.76, z: 4.3}
-  m_LocalScale: {x: 8.595258, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 18.45, y: -0.76, z: 4.5}
+  m_LocalScale: {x: 7.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -4691,7 +4585,7 @@ GameObject:
   - component: {fileID: 1848992442}
   - component: {fileID: 1848992441}
   - component: {fileID: 1848992440}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (11)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4707,8 +4601,8 @@ Transform:
   m_GameObject: {fileID: 1848992438}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.39, y: -0.76, z: 32.24}
-  m_LocalScale: {x: 19.305052, y: 2.5502, z: 1}
+  m_LocalPosition: {x: -0.1, y: -0.76, z: 32.52}
+  m_LocalScale: {x: 18.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -4901,7 +4795,7 @@ GameObject:
   - component: {fileID: 1872331003}
   - component: {fileID: 1872331002}
   - component: {fileID: 1872331001}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (26)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -4917,8 +4811,8 @@ Transform:
   m_GameObject: {fileID: 1872330999}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.35, y: -0.76, z: 41.03}
-  m_LocalScale: {x: 17.856758, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 12.9, y: -0.76, z: 40.5}
+  m_LocalScale: {x: 16.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -5056,7 +4950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   obstacleMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   gridWorldSize: {x: 100, y: 100}
   nodeRadius: 0.5
   gridSizeX: 0
@@ -5073,7 +4967,7 @@ GameObject:
   - component: {fileID: 2112311028}
   - component: {fileID: 2112311027}
   - component: {fileID: 2112311026}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (29)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -5089,8 +4983,8 @@ Transform:
   m_GameObject: {fileID: 2112311024}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.09, y: -0.76, z: 36.1}
-  m_LocalScale: {x: 10.391208, y: 2.5502, z: 1}
+  m_LocalPosition: {x: 4.4, y: -0.76, z: 36.5}
+  m_LocalScale: {x: 9.8, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}
@@ -5270,7 +5164,7 @@ GameObject:
   - component: {fileID: 2141983266}
   - component: {fileID: 2141983265}
   - component: {fileID: 2141983264}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Cube (20)
   m_TagString: Obstacle
   m_Icon: {fileID: 0}
@@ -5286,8 +5180,8 @@ Transform:
   m_GameObject: {fileID: 2141983262}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -19.18, y: -0.76, z: 14.09}
-  m_LocalScale: {x: 6.45837, y: 2.5502, z: 0.87541}
+  m_LocalPosition: {x: -19.05, y: -0.76, z: 14.1}
+  m_LocalScale: {x: 6, y: 2.5, z: 0.8}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 959613806}

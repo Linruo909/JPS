@@ -30,6 +30,7 @@ public class JPSGrid : MonoBehaviour
                 Vector3 worldPoint = worldBottomLeft +
                     Vector3.right * (x * nodeRadius * 2 + nodeRadius) +
                     Vector3.forward * (y * nodeRadius * 2 + nodeRadius);
+                // 通过找给定的layer进行通行性判断(识别障碍物)
                 bool walkable = !Physics.CheckSphere(
                     worldPoint,
                     nodeRadius,
